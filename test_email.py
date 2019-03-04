@@ -15,7 +15,7 @@ else:
     date_diff_str = str(date_diff.days)+" days later"
 
 sendQuickMail(
-        "BBF-HZZ-Analysis@cern.ch",
+        "kin.ho.lo@cern.ch",
         "Reminder for BBF meeting: "+meeting_date.strftime("%B %d, %Y"),
         "Hi guys,\n\nJust a kind reminder that we will have our BBF meeting at {time} {place}, {dateDiff}. Agenda here: {link}.\n\nKind regards,\nLucien".format(
             time=sys.argv[1],
